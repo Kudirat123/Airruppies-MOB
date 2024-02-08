@@ -1,0 +1,4 @@
+#Wed Aug 23 09:28:21 WAT 2023
+base.0=/Users/babsodunewu/Desktop/Airruppies-Mobile/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

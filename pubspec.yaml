@@ -1,0 +1,121 @@
+name: airruppies
+description: Fintech
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  dio: 
+  hive: 
+  intl: 
+  
+  path_provider: ^2.0.15
+  google_fonts: ^4.0.4
+  m_toast: ^0.2.0
+  dio_http_cache: ^0.3.0
+  dots_indicator: ^3.0.0
+  carousel_slider: ^4.2.1
+  provider: ^6.0.5
+  pin_code_fields: ^7.4.0
+  timer_builder: ^2.0.0
+  top_snackbar_flutter: ^3.0.0+1
+  animated_bottom_navigation_bar: ^1.2.0
+  circle_nav_bar: ^2.0.1+1
+  curved_nav_bar: ^0.0.2
+  flutter_svg: ^2.0.5
+  badges: ^3.1.1
+  geolocator: ^7.0.1
+  screenshot: ^2.1.0
+  material_design_icons_flutter: 
+  local_auth: ^2.1.6
+  nigerian_states_and_lga: ^1.0.0
+  dropdown_search: ^5.0.6
+  fluttertoast: ^8.2.2
+  awesome_snackbar_content: ^0.1.3
+  image_picker: ^1.0.1
+  share: ^2.0.4
+  contacts_service: 
+  device_info_plus: 
+  permission_handler: ^10.4.3
+  pdf: ^3.10.4
+  url_launcher: ^6.1.12
+  onesignal_flutter: 
+  
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/svgs/home_svg/
+    - assets/svgs/home_card_svgs/
+    - assets/svgs/savings/
+    - assets/svgs/savings/savingsPlan/
+    - assets/svgs/send_money_svgs/
+    - assets/svgs/onboarding_svgs/
+    - assets/svgs/card_svgs/
+    - assets/svgs/upgrade_account/
+    - assets/svgs/profile_svgs/
+    - assets/svgs/profile_svgs/profile_tile/
+    - assets/svgs/invitation_svgs/
+    - assets/svgs/invitation_svgs/
+    - assets/images/bill_payment/cable_images/
+    - assets/images/bill_payment/airtime_provider/
+    - assets/images/account_icon/
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

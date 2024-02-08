@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.production.airruppies.app-mergeReleaseResources-38:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/babsodunewu/.gradle/caches/transforms-3/9460c71ee0d7e8c8d4351b85e2d28bcb/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

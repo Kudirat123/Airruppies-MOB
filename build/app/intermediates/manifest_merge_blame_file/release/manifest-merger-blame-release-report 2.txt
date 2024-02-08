@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.production.airruppies"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+11-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:3:6-74
+11-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:3:23-72
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:4:10-71
+12-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:4:27-69
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:5:10-77
+13-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:5:27-74
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:6:1-69
+14-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:6:18-66
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:7:10-85
+15-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:7:27-83
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:8:11-84
+16-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:8:28-82
+17    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+17-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:9:13-79
+17-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:9:30-77
+18
+19    <queries>
+19-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+20        <intent>
+20-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.accounts.AccountAuthenticator" />
+21-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-76
+21-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-73
+22        </intent>
+23        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+24        <intent>
+24-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-21:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+25-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
+26
+27            <data
+27-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-20:44
+28                android:host="com.android.contacts"
+28-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-52
+29                android:mimeType="vnd.android.cursor.item/*"
+29-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-61
+30                android:scheme="content" />
+30-->[:contacts_service] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-41
+31        </intent>
+32    </queries>
+33
+34    <permission
+34-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+35        android:name="com.production.airruppies.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.production.airruppies.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+39
+40    <application
+41        android:name="android.app.Application"
+41-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:13:9-42
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] /Users/babsodunewu/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:14:9-43
+44        android:label="Air Ruppies" >
+44-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:12:9-36
+45        <activity
+45-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:15:9-35:20
+46            android:name="com.production.airruppies.MainActivity"
+46-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:16:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:20:13-163
+48            android:exported="true"
+48-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:17:13-36
+49            android:hardwareAccelerated="true"
+49-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:21:13-47
+50            android:launchMode="singleTop"
+50-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:18:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:19:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:22:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:27:13-30:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:28:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:29:15-52
+63
+64            <intent-filter>
+64-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:31:13-34:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:32:17-68
+65-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:32:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:33:17-76
+67-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:33:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:38:9-40:33
+75            android:name="flutterEmbedding"
+75-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:39:13-44
+76            android:value="2" />
+76-->/Users/babsodunewu/Desktop/Airruppies-Mobile/android/app/src/main/AndroidManifest.xml:40:13-30
+77
+78        <provider
+78-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+79            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+79-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+80            android:authorities="com.production.airruppies.flutter.image_provider"
+80-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+81            android:exported="false"
+81-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+82            android:grantUriPermissions="true" >
+82-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+83            <meta-data
+83-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+85                android:resource="@xml/flutter_image_picker_file_paths" />
+85-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+86        </provider>
+87
+88        <activity
+88-->[:url_launcher_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+89-->[:url_launcher_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+90            android:exported="false"
+90-->[:url_launcher_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+91-->[:url_launcher_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+92
+93        <provider
+93-->[:share] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+94            android:name="io.flutter.plugins.share.ShareFileProvider"
+94-->[:share] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-70
+95            android:authorities="com.production.airruppies.flutter.share_provider"
+95-->[:share] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+96            android:exported="false"
+96-->[:share] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+97            android:grantUriPermissions="true" >
+97-->[:share] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+98            <meta-data
+98-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+100                android:resource="@xml/flutter_share_file_paths" />
+100-->[:image_picker_android] /Users/babsodunewu/Desktop/Airruppies-Mobile/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+101        </provider>
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/2859c87699c9f3d1a56cc4c22cfa28d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/2859c87699c9f3d1a56cc4c22cfa28d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/2859c87699c9f3d1a56cc4c22cfa28d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/2859c87699c9f3d1a56cc4c22cfa28d8/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/f7cba3abe37e36382f1f2949e5f38fbe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/f7cba3abe37e36382f1f2949e5f38fbe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.0.0] /Users/babsodunewu/.gradle/caches/transforms-3/f7cba3abe37e36382f1f2949e5f38fbe/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+111
+112        <uses-library
+112-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+115        <uses-library
+115-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.0.0-beta04] /Users/babsodunewu/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+118
+119        <provider
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+121            android:authorities="com.production.airruppies.androidx-startup"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+125                android:value="androidx.startup" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+126        </provider>
+127
+128        <receiver
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+129            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+130            android:directBootAware="false"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+131            android:enabled="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+132            android:exported="true"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+133            android:permission="android.permission.DUMP" >
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+135                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+138                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+141                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+144                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/babsodunewu/.gradle/caches/transforms-3/36aadc6eb473a87ded89a16c724c2dd8/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+145            </intent-filter>
+146        </receiver>
+147    </application>
+148
+149</manifest>
